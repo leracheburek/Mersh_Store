@@ -8,11 +8,18 @@ const TShirtCarousel = () => {
     ];
 
     return (
-        <div style={{ textAlign: 'center', padding: '20px' }}>
+        <div style={{ textAlign: 'center', padding: 20 }}>
             <h2>НАШІ ФУТБОЛКИ</h2>
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                 <button className="carousel-btn">←</button>
-                <div style={{ display: 'flex', gap: '20px' }}>
+                <div style={{ display: 'flex', gap: 20 }}>
+                    {tshirts.map(tshirt => (
+                        <div key={tshirt.id} style={{ textAlign: 'center' }}>
+                            <img src="https://via.placeholder.com/150" alt={tshirt.name} style={{ width: 150 }} />
+                            <p>{tshirt.name}</p>
+                            <p style={{ fontWeight: 'bold' }}>{tshirt.price}</p>
+                        </div>
+                    ))}
                 </div>
                 <button className="carousel-btn">→</button>
             </div>
@@ -22,3 +29,4 @@ const TShirtCarousel = () => {
 };
 
 export default TShirtCarousel;
+
