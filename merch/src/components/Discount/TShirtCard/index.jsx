@@ -4,7 +4,7 @@ const TShirtCard = ({ name, price }) => {
     return (
         <div style={{ textAlign: 'center', width: '150px' }}>
             <img
-                src="https://via.placeholder.com/150" // замініть на URL зображення
+                src="https://via.placeholder.com/150" 
                 alt={name}
                 style={{ width: '100%', marginBottom: '10px' }}
             />

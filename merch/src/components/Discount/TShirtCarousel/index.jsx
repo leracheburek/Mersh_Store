@@ -13,9 +13,6 @@ const TShirtCarousel = () => {
             <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                 <button className="carousel-btn">←</button>
                 <div style={{ display: 'flex', gap: '20px' }}>
-                    {tshirts.map((tshirt) => (
-                        <TShirtCard key={tshirt.id} name={tshirt.name} price={tshirt.price} />
-                    ))}
                 </div>
                 <button className="carousel-btn">→</button>
             </div>
