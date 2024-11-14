@@ -5,7 +5,7 @@ function OurAdvantages() {
         <div id="ouradv">
             <h1 className="header-advblock">НАШІ ПЕРЕВАГИ</h1>
             
-            <div className="advantage-block">
+            <div className="advantage-block"> 
                 <div className="card">
                     <h3 className="headerblock-advblock">ДОСТАВКА ПО СВІТУ</h3>
                     <p className="textmain-advblock">Здійснюємо доставку ваших замовлень в будь-яку точку планети</p>
