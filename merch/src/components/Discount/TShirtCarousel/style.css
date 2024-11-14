@@ -1,0 +1,8 @@
+.carousel-btn {
+    background-color: orange;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 0 10px;
+}
