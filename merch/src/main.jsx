@@ -5,6 +5,7 @@ import Discount from './components/Discount'
 import TShirtCard from './components/Discount/TShirtCard'
 import TShirtCarousel from './components/Discount/TShirtCarousel'
 
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Discount />

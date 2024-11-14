@@ -1,4 +1,4 @@
-import React from 'react';
+import './style.css';
 
 const TShirtCard = ({ name, price }) => {
     return (
